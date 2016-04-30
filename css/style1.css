@@ -1,0 +1,187 @@
+/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+
+/*-- main --*/
+
+@font-face{
+  font-family: "PT_Sans-Web-Regular";
+  src:url(../fonts/PT_Sans-Web-Regular.ttf);
+}
+
+
+/*--calender--*/
+.calnder {
+  padding: 0; border:1px solid #dddddd; width:100%;  border-radius: 6px;margin-bottom:15px;
+  font-family: PT_Sans-Web-Regular;
+  background-color: #fff;
+
+}
+.cal1 .clndr .clndr-table tr .day.today.event .day-contents {
+  color: #fff !important;
+}
+.clndr-top {
+  background-color: #f5c51d;
+
+}
+.column_right_grid.calender {
+   
+  
+}
+.clndr-event {
+    text-align: center;
+}
+.clndr-event a {
+    font-size: 0.9em;
+    background-color: #1DDCB6;
+    padding: 0.6em 1.2em;
+    color: #fff;
+    border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	-ms-border-radius: 20px;
+	-o-border-radius: 20px;
+	border: 1px solid #1DDCB6;
+	transition: .5s all;
+	-webkit-transition: .5s all;
+	-moz-transition: .5s all;
+	-ms-transition: .5s all;
+	-o-transition: .5s all;
+}
+.clndr-event a:hover {
+    color: #1DDCB6;
+    background-color: #fff;
+}
+a.popup-with-zoom-anim:focus {
+    outline: none;
+}
+/*--//calender--*/
+
+/*---- responsive-design -----*/
+@media(max-width:1440px){
+}
+@media(max-width:1366px){
+}
+@media(max-width:1280px){
+.main {
+    width: 39%;
+}
+}
+@media(max-width:1080px){
+.main {
+    width: 48%;
+}
+}
+@media(max-width:1024px){
+}
+@media(max-width:991px){
+h1 {
+    font-size: 2.8em;
+}
+.clndr .clndr-controls {
+    padding: 2em 0 !important;
+	margin: 1.5em 0 1em !important;
+}
+.clndr .clndr-controls .month {
+    font-size: 1.2em;
+}
+}
+@media(max-width:768px){
+.column_right_grid.calender {
+    padding: 2em 2em 1em;
+}
+.main {
+    width: 56%;
+}
+}
+@media(max-width:640px){
+.main {
+    width: 65%;
+}
+h1 {
+    font-size: 2.5em;
+}
+.clndr .clndr-controls .month {
+    font-size: 1em !important;
+}
+.clndr .clndr-controls .clndr-control-button .clndr-previous-button {
+    top: 43% !important;
+}
+.clndr .clndr-controls .clndr-control-button .clndr-next-button {
+    top: 43% !important;
+}
+.copy-right p {
+    font-size: 0.9em;
+}
+}
+@media(max-width:480px){
+.main {
+    width: 83%;
+	padding: 2em 0 6em;
+}
+.clndr-event a {
+    font-size: 0.8em;
+    padding: 0.7em 1.2em;
+}
+.clndr .clndr-controls {
+    padding: 1.8em 0 !important;
+    margin: 1.5em 0 0.8em !important;
+}
+}
+@media(max-width:320px){
+.main {
+    width: 90%;
+}
+h1 {
+    font-size: 2.2em;
+    letter-spacing: 1px;
+}
+.clndr .clndr-controls .month {
+    font-size: 0.9em !important;
+}
+.clndr .clndr-controls {
+    padding: 1.3em 0 !important;
+    margin: 1.2em 0 0.6em !important;
+}
+.copy-right {
+    margin-bottom: 1em;
+}
+.copy-right p {
+    font-size: 0.8em;
+}
+.event-text input[type="text"], .event-text input[type="date"], .event-text textarea {
+    width: 92%;
+    font-size: 0.8em;
+}
+.event-text input[type="submit"] {
+    width: 46%;
+    padding: .5em 0;
+    font-size: 0.8em;
+}
+}
+/*--//responsive-design---*/
